@@ -3,7 +3,7 @@ $host = 'localhost';
 $db   = 'sistema_empresa';
 $port = '3306';
 $user = 'root';
-$pass = '1234'; 
+$pass = ''; 
 
 
 try {

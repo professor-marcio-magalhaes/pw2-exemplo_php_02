@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none; /* Remove os pontos da lista */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; /* Cor de fundo do menu */
+    font-family: Arial, sans-serif;
+}
+
+li {
+    float: left; /* Alinha os itens um ao lado do outro */
+}
+
+li a {
+    display: block;
+    color: white; /* Cor do texto */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Muda a cor quando o mouse passa por cima */
+li a:hover {
+    background-color: #111;
+}
+
+/* Estilo especial para o botão "Sair" (opcional) */
+li a[href="logout.php"] {
+    color: #ff4d4d;
+}
